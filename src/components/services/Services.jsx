@@ -6,15 +6,11 @@ function Services() {
   const toggleTab = (index) => {
     setToggleState(index);
   };
-
   return (
     <section className="services section" id="services">
       <h2 className="section__title">Services</h2>
-      <span className="section__subtitle">What I offer</span>
-
+      <span className="section__subtitle">What i offer</span>
       <div className="services__container container grid">
-        
-        {/* Website Designer */}
         <div className="services__content">
           <div>
             <i className="uil uil-web-grid services__icon"></i>
@@ -40,7 +36,7 @@ function Services() {
               ></i>
               <h3 className="services__modal-title">Website Designer</h3>
               <p className="services__modal-description">
-                Service with more than 5 Months of Experience. Providing quality
+                Service with more than 1 Years of Experience.Providing quality
                 work to clients and companies.
               </p>
               <ul className="services__modal-services grid">
@@ -50,29 +46,91 @@ function Services() {
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web Page Development</p>
+                  <p className="services__modal-info">Web Page Devlopment</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Authentication</p>
+                  <p className="services__modal-info">Authentication Flow</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Store Data in Redux, integration
+                    Store Data in Redux, API integeration
                   </p>
                 </li>
-                
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">Pixel Perfect Design</p>
+                </li>
               </ul>
             </div>
           </div>
         </div>
-
-        {/* UI/UX */}
+        <div className="services__content">
+          <div>
+            <i className="uil uil-mobile-android-alt services__icon"></i>
+            <h3 className="services__title">
+              Mobile Application <br /> Designer
+            </h3>
+          </div>
+          <span className="services__button" onClick={() => toggleTab(2)}>
+            View More
+            <i className="uil uil-arrow-right services__button-icon"></i>
+          </span>
+          <div
+            className={
+              toggleState === 2
+                ? "services__modal active-modal"
+                : "services__modal"
+            }
+          >
+            <div className="services__modal-content">
+              <i
+                className="uil uil-times services__modal-close"
+                onClick={() => toggleTab(0)}
+              ></i>
+              <h3 className="services__modal-title">Mobile App Designer</h3>
+              <p className="services__modal-description">
+                Service with more than 1 Years of Experience.Providing quality
+                work to clients and companies.
+              </p>
+              <ul className="services__modal-services grid">
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    I develop user interface
+                  </p>
+                </li>
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    React Native Devlopment
+                  </p>
+                </li>
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    UI design using Flex box technique
+                  </p>
+                </li>
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">Store data using Redux</p>
+                </li>
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">API integeration</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
         <div className="services__content">
           <div>
             <i className="uil uil-arrow services__icon"></i>
-            <h3 className="services__title">UI/UX</h3>
+            <h3 className="services__title">
+              UI/UX <br /> Design
+            </h3>
           </div>
           <span className="services__button" onClick={() => toggleTab(3)}>
             View More
@@ -90,9 +148,9 @@ function Services() {
                 className="uil uil-times services__modal-close"
                 onClick={() => toggleTab(0)}
               ></i>
-              <h3 className="services__modal-title">UI/UX</h3>
+              <h3 className="services__modal-title">UI/UX Design</h3>
               <p className="services__modal-description">
-                Service with more than 5 Months of Experience. Providing quality
+                Service with more than 1 Years of Experience.Providing quality
                 work to clients and companies.
               </p>
               <ul className="services__modal-services grid">
@@ -108,12 +166,22 @@ function Services() {
                     I develop design on Figma
                   </p>
                 </li>
-                
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    I develop design on Adobe XD
+                  </p>
+                </li>
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    I develop user interactive Mockups
+                  </p>
+                </li>
               </ul>
             </div>
           </div>
         </div>
-
       </div>
     </section>
   );

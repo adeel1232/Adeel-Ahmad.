@@ -57,7 +57,7 @@ function Data() {
       </h1>
       <h3 className="home__subtitle">Web Developer</h3>
       <p className="home__description">
-        I'm Web Developer based in Pakistan,Curiosity is my key strength and
+        I'm Web Developer based in Pakistan.Curiosity is my key strength and
         most prominent trait which I have used to learn different tools and
         technologies and build something amazing using them.
       </p>

@@ -1,16 +1,17 @@
 
-import asas from "../../assets/asas.jpg";
-import addd from "../../assets/addd.PNG";
-import OIP from "../../assets/OIP.webp";
+import cloths from "../../assets/cloths.png";
+import phone from "../../assets/phone.png";
+import moblie from "../../assets/moblie.png";
 import gov from "../../assets/gov.png";
-import tic from "../../assets/tic.webp";
-import sdfs from '../../assets/sdfs.webp';
 
-
+import movie from '../../assets/movie.png';
+import chat from '../../assets/chat.png';
+import shopping from '../../assets/Shopping.png';
+import shop from '../../assets/shop.png';
 export const projectsData = [
   {
     id: 1,
-    image: addd,
+    image: phone,
     title: "Phonedirectory",
     category: "web",
     link: "https://phonedirectory-roan.vercel.app/",
@@ -24,7 +25,7 @@ export const projectsData = [
     id: 2,
 
 
-    image: asas,
+    image: cloths,
     title: "Shopping Clothes",
     category: "web",
     link: "https://shopping-clothes-ruby.vercel.app/",
@@ -37,7 +38,7 @@ export const projectsData = [
  
    {
     id: 3,
-    image: OIP,
+    image: moblie,
     title: "Mobile",
     category: "web",
     link: "https://shopping-mobile.vercel.app/",
@@ -50,19 +51,37 @@ export const projectsData = [
     link: "https://budget-app-seven-wine.vercel.app/",
   },
  
-   {
-    id: 5,
-    image: tic,
-    title: "Tic-Tac-Toe",
-    category: "web",
-    link: "https://tic-tac-toe-game-tau-navy.vercel.app/",
-  },
+   
  {
-    id: 6,
-    image: sdfs,
+    id: 5,
+    image: movie,
     title: "MOVIE",
     category: "web",
     link: "https://mobie-app.vercel.app/react-movie-app",
+    
+  },
+  {
+    id: 6,
+    image: chat,
+    title: "Chat App",
+    category: "web",
+    link: "https://ai-model-eta-three.vercel.app/",
+    
+  },
+  {
+    id: 7,
+    image: shopping,
+    title: "Shopping App",
+    category: "web",
+    link: "https://shopping-cart-pi-puce.vercel.app/",
+    
+  },
+    {
+    id: 8,
+    image: shop,
+    title: "Shopping App",
+    category: "web",
+    link: "https://shopping-cart-pi-puce.vercel.app/",
     
   },
 ]

@@ -15,13 +15,10 @@ function About() {
           <Info />
           
       <p className="about__description">
-  I’m a passionate Full-Stack Developer specializing in crafting responsive, high-performance
-  web pages using React.js, JavaScript, Redux, Routing, Axios, HTML, CSS, Bootstrap, UI/UX,
-  and Authentication.  
-  With 5 months of hands-on experience, I bring creative solutions and clean, efficient code to
-  every project.  
-  As a backend developer, I ensure robust, secure, and scalable functionality, delivering
-  complete solutions that leave clients satisfied and returning for more.
+
+
+I’m a Full Stack Developer focused on building responsive, high performance web applications using React, JavaScript, Node.js, and MongoDB. With 1 year of hands on experience, I deliver clean, scalable, and secure solutions with a strong eye for UI/UX and performance.
+
 </p>
 
           <a download="" href={CV} className="button button--flex">
