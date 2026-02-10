@@ -57,7 +57,7 @@ export const projectsData = [
     image: movie,
     title: "MOVIE",
     category: "web",
-    link: "https://mobie-app.vercel.app/react-movie-app",
+    link: "https://movie-app-iota-dun-15.vercel.app/",
     
   },
   {
