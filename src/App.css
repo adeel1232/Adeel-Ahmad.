@@ -357,3 +357,62 @@ img {
 .nav__link:hover::after {
   width: 100%;
 }
+
+/* Full-screen welcome screen for all devices */
+.welcome-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  width: 100vw;  
+  font-size: 2rem;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+
+  /* Background image responsive & clear */
+  background-image: url('../public/abc.jpg'); /* public folder سے */
+  background-size: cover;             /* پورے ڈیوائس پر adjust */
+  background-position: center;        /* ہمیشہ center میں رہے */
+  background-repeat: no-repeat;       
+  background-attachment: fixed;       /* scroll کے وقت بھی stable رہے */
+  
+  transition: opacity 1s ease-in-out;
+  opacity: 1;
+}
+
+/* Fade-out effect */
+.welcome-screen.fade-out {
+  opacity: 0;
+}
+
+/* Text animation */
+.welcome-text {
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  animation: fadeInText 2s ease forwards;
+}
+
+/* Smooth text fade-in */
+@keyframes fadeInText {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Smooth scrolling for the portfolio */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Responsive font size */
+@media (max-width: 768px) {
+  .welcome-screen {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .welcome-screen {
+    font-size: 1.2rem;
+    padding: 0 20px; 
+  }
+}
