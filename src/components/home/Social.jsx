@@ -9,31 +9,34 @@ function Social() {
         target="_blank"
         rel="noreferrer"
       >
-        <i class="uil uil-linkedin"></i>
+        <i className="uil uil-linkedin"></i>
       </a>
+
       <a
-        href="https://www.artstation.com/adeel chand"
+        href="https://www.artstation.com/adeelchand"
         className="home__social-icon"
         target="_blank"
         rel="noreferrer"
       >
-        <i class="uil uil-rocket"></i>
+        <i className="uil uil-rocket"></i>
       </a>
+
       <a
-        href="https://www.behance.net/ adeel chand"
+        href="https://www.behance.net/adeelchand"
         className="home__social-icon"
         target="_blank"
         rel="noreferrer"
       >
-        <i class="uil uil-behance"></i>
+        <i className="uil uil-behance"></i>
       </a>
+
       <a
         href="https://github.com/adeel1232"
         className="home__social-icon"
         target="_blank"
         rel="noreferrer"
       >
-        <i class="uil uil-github-alt"></i>
+        <i className="uil uil-github-alt"></i>
       </a>
     </div>
   );

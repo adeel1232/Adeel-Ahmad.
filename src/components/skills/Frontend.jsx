@@ -16,7 +16,7 @@ function Frontend() {
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name">Redux</h3>
+              <h3 className="skills__name">React Native</h3>
               <span className="skills__level">Advance</span>
             </div>
           </div>
@@ -32,14 +32,14 @@ function Frontend() {
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name">Html</h3>
+              <h3 className="skills__name">Html&CSS</h3>
               <span className="skills__level">Advance</span>
             </div>
           </div>
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name">CSS</h3>
+              <h3 className="skills__name">Next JS</h3>
               <span className="skills__level">Advance</span>
             </div>
           </div>
